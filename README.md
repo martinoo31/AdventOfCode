@@ -23,3 +23,10 @@ The program parses the seeds and puts them in a Vector of Integers, then it star
 
 __Part 2__
 The program parses the seeds ranges and puts them in a Vector of ranges, then it starts cyclying through the lines of the file. For each mapping block it reads the mapping lines and if one the seed ranges partially or totally overlaps with one of the mapping ranges, the overlapping part is added to the map vector, a vector of ranges, while the non overlapping parts are added back to the non mapped ranges vector. After the file ends the program cycles through the map vector to find the lowest range start, which is the lowest location.
+
+### Day 6
+__Part 1__
+The program parses all the race durations and distances to beat than for each race it calculates all possible outcomes and keeps only the one greater than the distance to beat. At the end the valid number of races are multiplied together
+
+__Part 2__
+The program is the same only the input text was manually changed to match the second part requirements.
